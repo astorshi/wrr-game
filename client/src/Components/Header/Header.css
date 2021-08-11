@@ -1,0 +1,7 @@
+.mainHedDiv {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
