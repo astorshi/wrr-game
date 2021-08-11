@@ -30,7 +30,7 @@ export default function List() {
 
     return (
 <>
-    {(!units.length) ? <h3 className='empty'>воинов пока нет...</h3> : ''}
+    {(!units.length) ? <h3 className='empty'>Воинов пока нет...</h3> : ''}
             {units.map((el) => {
                 return (
                     <div key={el._id} className="box">
